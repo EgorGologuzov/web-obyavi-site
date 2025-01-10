@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/web-obyavi-site/static/css/main.04f85758.css",
-    "main.js": "/web-obyavi-site/static/js/main.7b0b5254.js",
+    "main.js": "/web-obyavi-site/static/js/main.893d98df.js",
     "static/media/logo-with-supcaption-d.png": "/web-obyavi-site/static/media/logo-with-supcaption-d.859821695b430c62a83b.png",
     "static/media/logo-with-supcaption-l.png": "/web-obyavi-site/static/media/logo-with-supcaption-l.493b4f012a5a8f13533d.png",
     "static/media/logo-full-d.png": "/web-obyavi-site/static/media/logo-full-d.1d33e188224cefdd7627.png",
     "static/media/logo-full-l.png": "/web-obyavi-site/static/media/logo-full-l.3ac1402d96d7591fa525.png",
     "index.html": "/web-obyavi-site/index.html",
     "main.04f85758.css.map": "/web-obyavi-site/static/css/main.04f85758.css.map",
-    "main.7b0b5254.js.map": "/web-obyavi-site/static/js/main.7b0b5254.js.map"
+    "main.893d98df.js.map": "/web-obyavi-site/static/js/main.893d98df.js.map"
   },
   "entrypoints": [
     "static/css/main.04f85758.css",
-    "static/js/main.7b0b5254.js"
+    "static/js/main.893d98df.js"
   ]
 }
