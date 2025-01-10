@@ -49,25 +49,25 @@ function App() {
         <BrowserRouter>
             <Routes>
 
-                <Route path="/auth" element={<Navigate to="/web-obyavi-site/auth" />}/>
-                <Route path="/reg" element={<Navigate to="/web-obyavi-site/reg" />}/>
-                <Route path="/recovery" element={<Navigate to="/web-obyavi-site/recovery" />}/>
-                <Route path="/c/search" element={<Navigate to="/web-obyavi-site/c/search" />}/>
+                <Route path="/auth" element={<NavigateId to="/web-obyavi-site/auth" />}/>
+                <Route path="/reg" element={<NavigateId to="/web-obyavi-site/reg" />}/>
+                <Route path="/recovery" element={<NavigateId to="/web-obyavi-site/recovery" />}/>
+                <Route path="/c/search" element={<NavigateId to="/web-obyavi-site/c/search" />}/>
                 <Route path="/c/ad/:id" element={<NavigateId to="/web-obyavi-site/c/ad/:id" />}/>
                 <Route path="/c/client/:id" element={<NavigateId to="/web-obyavi-site/c/client/:id" />}/>
-                <Route path="/c/ad/new" element={<Navigate to="/web-obyavi-site/c/ad/new" />}/>
+                <Route path="/c/ad/new" element={<NavigateId to="/web-obyavi-site/c/ad/new" />}/>
                 <Route path="/c/chat/:id" element={<NavigateId to="/web-obyavi-site/c/chat/:id" />}/>
                 <Route path="/c/ad/:id/edit" element={<NavigateId to="/web-obyavi-site/c/ad/:id/edit" />}/>
-                <Route path="/c/profile/edit" element={<Navigate to="/web-obyavi-site/c/profile/edit" />}/>
-                <Route path="/c/favorite" element={<Navigate to="/web-obyavi-site/c/favorite" />}/>
+                <Route path="/c/profile/edit" element={<NavigateId to="/web-obyavi-site/c/profile/edit" />}/>
+                <Route path="/c/favorite" element={<NavigateId to="/web-obyavi-site/c/favorite" />}/>
                 <Route path="/c/client/:id/ads" element={<NavigateId to="/web-obyavi-site/c/client/:id/ads" />}/>
                 <Route path="/c/client/:id/reviews" element={<NavigateId to="/web-obyavi-site/c/client/:id/reviews" />}/>
-                <Route path="/c/chats" element={<Navigate to="/web-obyavi-site/c/chats" />}/>
-                <Route path="/c/ads" element={<Navigate to="/web-obyavi-site/c/ads" />}/>
-                <Route path="/c/profile" element={<Navigate to="/web-obyavi-site/c/profile" />}/>
+                <Route path="/c/chats" element={<NavigateId to="/web-obyavi-site/c/chats" />}/>
+                <Route path="/c/ads" element={<NavigateId to="/web-obyavi-site/c/ads" />}/>
+                <Route path="/c/profile" element={<NavigateId to="/web-obyavi-site/c/profile" />}/>
                 <Route path="/c/client/:id/reviews/new" element={<NavigateId to="/web-obyavi-site/c/client/:id/reviews/new" />}/>
-                <Route path="/c/settings" element={<Navigate to="/web-obyavi-site/c/settings" />}/>
-                <Route path="/c" element={<Navigate to="/web-obyavi-site/c" />}/>
+                <Route path="/c/settings" element={<NavigateId to="/web-obyavi-site/c/settings" />}/>
+                <Route path="/c" element={<NavigateId to="/web-obyavi-site/c" />}/>
 
                 <Route path="/web-obyavi-site/elements" element={<Elements />} />
 
