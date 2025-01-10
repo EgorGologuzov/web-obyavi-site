@@ -62,6 +62,7 @@ function App() {
                 <Route path="/c/profile" element={<Navigate to="/web-obyavi-site/c/profile" />}/>
                 <Route path="/c/client/:id/reviews/new" element={<Navigate to="/web-obyavi-site/c/client/:id/reviews/new" />}/>
                 <Route path="/c/settings" element={<Navigate to="/web-obyavi-site/c/settings" />}/>
+                <Route path="/c" element={<Navigate to="/web-obyavi-site/c" />}/>
 
                 <Route path="/web-obyavi-site/elements" element={<Elements />} />
 
