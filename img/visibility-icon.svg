@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="36.883381mm"
+   height="31.654829mm"
+   viewBox="0 0 36.883381 31.654829"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="visibility-icon.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="4.0729798"
+     inkscape:cx="149.39922"
+     inkscape:cy="89.73774"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7">
+      <ellipse
+         style="fill:#000000;stroke-width:0.28843"
+         id="ellipse7"
+         cx="64.22319"
+         cy="40.20932"
+         rx="18.451689"
+         ry="14.900492" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.31905718,0.22005445)">
+    <ellipse
+       style="fill:#000000;stroke-width:0.28843"
+       id="path5"
+       clip-path="url(#clipPath7)"
+       ry="14.900492"
+       rx="18.451689"
+       cy="32.320839"
+       cx="64.243187"
+       transform="translate(-45.472441,-20.007874)" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.360337"
+       id="path7"
+       cx="18.760748"
+       cy="16.257206"
+       r="7.9448514" />
+    <circle
+       style="fill:#000000;stroke-width:0.360337"
+       id="path8"
+       cx="18.760748"
+       cy="16.257206"
+       r="5.0359101" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:4.265;stroke-dasharray:none"
+       id="rect16"
+       width="3.4893911"
+       height="37.578499"
+       x="-24.3512"
+       y="-17.052313"
+       transform="rotate(-135.89542)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:4.27278;stroke-dasharray:none"
+       id="rect16-1"
+       width="3.4958026"
+       height="37.646507"
+       x="-27.604267"
+       y="-17.098112"
+       transform="matrix(-0.71837829,-0.69565266,0.69628761,-0.71776289,0,0)" />
+  </g>
+</svg>
