@@ -1,0 +1,32 @@
+.list-input-header__comment {
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.category-list-input__list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    padding-top: 5px;
+}
+
+.category-list-input__item {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--fg);
+    border-radius: 10px;
+    border: 1px solid var(--secondary);
+    margin: 0 5px 5px 0;
+    padding: 5px;
+}
+
+.category-list-input__text {
+    margin: auto 5px auto 5px;
+    color: var(--text);
+}
+
+.category-list-input__placeholder {
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+.category-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.category-list__item {
+    color: var(--text);
+    background-color: var(--fg);
+    font-size: 12px;
+    border-radius: 50lvh;
+    padding: 5px 10px 5px 10px;
+    width: min-content;
+    text-wrap: nowrap;
+    border: 1px solid var(--text);
+    margin: 0 5px 5px 0;
+}

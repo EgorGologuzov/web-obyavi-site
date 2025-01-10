@@ -1,0 +1,134 @@
+.profile-page{
+    display:flex;
+    flex-direction:column;
+    margin: 100px 10px 0px 10px;
+}
+.profile-page__header{
+    border:1px solid var(--text);
+    border-radius:10px;
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.profile-page__header__info{
+    display:inline-flex;
+    flex-direction:row;
+    align-self:center;
+    max-width: 100%;
+    margin-right:50px;
+}
+.profile-page__header__info .avatar{
+    min-width: 200px;
+    min-height:200px;
+    align-self:center;
+}
+.profile-page__header button{
+    max-width:400px;
+    height: max-content;
+    padding:10px 0px;
+    align-self:center;
+}
+.profile-page__header__info__text{
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    margin-left:20px;
+    gap:6px;
+    max-width: 100%;
+}
+.profile-page__header__info__text h2{
+    max-width: max-content;
+    word-wrap: break-word;
+}
+.profile-page__header__info .stats{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    max-width: max-content;
+    max-height: fit-content;
+    flex-wrap: wrap;
+}
+.profile-page__header__info .stats h6{
+    max-width: max-content;
+    word-wrap: break-word;
+}
+.profile-page__header__info__text .stars-bar{
+    grid-column:span 2;
+    height:100%;
+    place-self: start start;
+    gap:0;
+    padding:5px;
+    width:100%;
+}
+.profile-page__header__info__text .stars-bar svg{
+    width:30px;
+    height:30px;
+}
+
+.profile-page__body{
+    margin-top:25px;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.profile-page__description{
+    border:1px solid var(--text);
+    border-radius:10px;
+    padding:10px;
+    max-width:600px;
+    display:grid;
+    row-gap:10px;
+    grid-template-columns: minmax(0px, auto) minmax(0px, auto);
+    column-gap: 20px;
+}
+.profile-page__description .subcaption.subcaption_level_1{
+    grid-column:span 2;
+}
+.profile-page__actions{
+    padding:20px;
+    min-width:300px;
+    border-radius:10px;
+    display:grid;
+    grid-template-rows: 50px auto;
+    gap:15px;
+    border:1px solid var(--text);
+}
+@media (width<750px){
+    .profile-page__header{
+        flex-direction:column;
+    }
+    .profile-page__header__info{
+        flex-direction: column;
+        margin-right:0px;
+    }
+    .profile-page__header button{
+        margin-top:11px;
+        word-wrap: break-word;
+    }
+    .profile-page__body{
+        flex-direction: column;
+    }
+    .profile-page__actions{
+        margin-top:20px;
+    }
+    .profile-page__header__info .avatar{
+        width:100%;
+        height:100%;
+        min-width: 0px;
+        min-height: 0px;
+    }
+    .profile-page__header__info__text .stars-bar{
+        max-width: 100%;
+    }
+    .profile-page__header__info__text{
+        margin-left:0px;
+    }
+    .profile-page__body{
+        align-self:center;
+    }
+    .profile-page__description h6{
+        word-wrap: break-word;
+    }
+}

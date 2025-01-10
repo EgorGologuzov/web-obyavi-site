@@ -1,0 +1,11 @@
+.list-input-header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.list-input-header__label {
+    font-size: 12px;
+    margin: auto 5px auto 0;
+    color: var(--text);
+}

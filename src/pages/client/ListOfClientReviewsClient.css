@@ -1,0 +1,25 @@
+.client-reviews{
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+.client-reviews h2{
+    margin-bottom:5px;
+}
+.client-reviews .dropdown{
+    max-width: 400px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.client-reviews .tool-panel{
+    display:none;
+}
+
+.client-reviews .client-page__review-zone__review .profile-info{
+    height:100%;
+}
+.client-reviews .client-page__review-zone__review .profile-info h6{
+    grid-area:3/2/3/2;
+    height:min-content;
+}

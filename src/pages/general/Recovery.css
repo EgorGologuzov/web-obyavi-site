@@ -1,0 +1,50 @@
+.recovery-page {
+    max-width: 300px;
+}
+
+.recovery-page__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.recovery-page .auto-form {
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.recovery-page .grid-container>div {
+    width: 100%;
+}
+
+.recovery-page__logo {
+    height: 100%;
+    content: var(--logo);
+}
+
+.recovery-page .auto-form input {
+    min-width: 200px;
+}
+
+.recovery-page .error {
+    text-wrap: wrap;
+}
+
+.recovery-page .subcaption {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.recovery-page .spliter {
+    height: 20px;
+}
+
+@media (width < 750px) {
+    .recovery-page__header {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+}

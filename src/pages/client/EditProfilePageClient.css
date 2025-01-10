@@ -1,0 +1,118 @@
+.edit-profile-page{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+    margin:0px 10px;    
+}
+.edit-profile-page__header{
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    align-self:center;
+    justify-content: center;
+    width: 100%;
+}
+.edit-profile-page__header__info{
+    display:flex;
+    flex-direction:row;
+    width:500px;
+}
+.edit-profile-page__header__info input{
+    display:none;
+}
+.edit-profile-page__header__info .avatar{
+    position:relative;
+    width:50%;
+}
+.edit-profile-page__header__info .avatar::before{
+    position: absolute;
+    align-content: center;
+    text-align:center;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:0%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease-out;
+}
+.edit-profile-page__header__info .avatar:hover::before{
+    opacity: 1;
+    background-image: var(--icon-settings);
+    background-size:80%;
+    background-color:rgba(var(--text-rgb),0.3);
+}
+.edit-profile-page__header__info .avatar:hover{
+    cursor:pointer;
+}
+.edit-profile-page__header__info__text{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0px,max-content));
+    column-gap:10px;
+    row-gap:8px;
+    grid-template-rows: repeat(3,minmax(0px,max-content));
+    margin-left:20px;
+    align-self: center;
+    flex-direction:column;
+    width:100%;
+}
+.edit-profile-page__header__info__text h6{
+    width:100%;
+    word-wrap: break-word;
+}
+.edit-profile-page__header__info__text h6:last-of-type{
+    grid-column: span 2;
+}
+.edit-profile-page__header__info__text .stars-bar{
+    grid-column:span 2;
+    width:100%;
+    height: 100%;
+    padding:5px 15px;
+    place-self: end start;
+}
+.edit-profile-page form{
+    margin-top:30px;
+    width: 100%;
+    align-self: center;
+}
+.edit-profile-page__confirm-buttons{
+    width:450px;
+    margin-top:20px;
+    margin-bottom:20px;
+    align-self: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.edit-profile-page__confirm-buttons button{
+    width:190px;
+}
+
+@media(width<750px){
+    .edit-profile-page__confirm-buttons{
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        height:110px;
+    }
+    .edit-profile-page__confirm-buttons button{
+        width:100%;
+    }
+    .edit-profile-page__header__info{
+        flex-direction:column;
+    }
+    .edit-profile-page__header__info .avatar{
+        align-self:center;
+        margin-bottom:20px;
+        max-width:200px;
+    }
+    .edit-profile-page__header__info__text{
+        width:fit-content;
+    }
+    .edit-profile-page__header__info__text .stars-bar{
+        gap:5px;
+    }
+}

@@ -1,0 +1,12 @@
+.favorites-list{
+    margin-top:20px;
+}
+.favorites-list h3{
+    margin-bottom:10px;
+    place-self: end end;
+}
+.favorites-list .dropdown{
+    margin-bottom:18px;
+    width:300px;
+    place-self: end end;
+}

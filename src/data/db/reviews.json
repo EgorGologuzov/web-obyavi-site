@@ -1,0 +1,24 @@
+[
+    {
+        "authorUserId":4,
+        "targetUserId":3,
+        "rating":1,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate sollicitudin finibus. Sed in enim ornare, eleifend tortor ac, dignissim purus. Integer ornare elit sed augue pellentesque maximus sed in enim. Nulla facilisi. Nam consequat elit eget justo finibus blandit. Fusce non aliquam ante.",
+        "date":"20.11.2024",
+        "images":[
+            {"src":"https://30.img.avito.st/image/1/1.Kst2WLa4hiJA8UQnLjxdlF36hCTI-QQqAPyEIMbxjijA.EBsvoMKv5W7V147pI4GaHRfkXOjYKRAXD1o3DMbDIQo"},
+            {"src":"https://90.img.avito.st/image/1/1.Zn9mo7a4ypZQCgiTJrYnUkwCyJDYAkieEAfIlNYKwpzQ.0GkXtH27bzAS4S3pCjTkcK1_2KVbCLuI7_v6nwsMg_Y"}
+        ]
+    },
+    {
+        "authorUserId":3,
+        "targetUserId":4,
+        "rating":2,
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vulputate sollicitudin finibus. Sed in enim ornare, eleifend tortor ac, dignissim purus. Integer ornare elit sed augue pellentesque maximus sed in enim. Nulla facilisi. Nam consequat elit eget justo finibus blandit. Fusce non aliquam ante.",
+        "data":"19.11.2024",
+        "images":[
+            {"src":"https://30.img.avito.st/image/1/1.Kst2WLa4hiJA8UQnLjxdlF36hCTI-QQqAPyEIMbxjijA.EBsvoMKv5W7V147pI4GaHRfkXOjYKRAXD1o3DMbDIQo"},
+            {"src":"https://90.img.avito.st/image/1/1.Zn9mo7a4ypZQCgiTJrYnUkwCyJDYAkieEAfIlNYKwpzQ.0GkXtH27bzAS4S3pCjTkcK1_2KVbCLuI7_v6nwsMg_Y"}
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+.layout-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.layout-card__content {
+    border: 1px solid var(--secondary);
+    background-color: var(--fg);
+    border-radius: 10px;
+    max-width: 1200px;
+    padding: 30px;
+}
+
+@media (width < 750px) {
+    .layout-card__content {
+        padding: 20px;
+    }
+}

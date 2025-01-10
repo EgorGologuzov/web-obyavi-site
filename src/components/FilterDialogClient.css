@@ -1,0 +1,16 @@
+.tree-node{
+    display: none;
+    margin-left:40px;
+    margin-top:10px;
+    opacity: 1;
+    transition:all 0.3s ease-out;
+}
+.father-group{
+    display:block;
+    margin:0;
+    opacity: 1;
+    margin-bottom:15px;
+}
+.visible{
+    display: block;
+}

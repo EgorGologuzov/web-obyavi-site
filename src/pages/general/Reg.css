@@ -1,0 +1,40 @@
+.reg-page__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.reg-page .auto-form {
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.reg-page .grid-container {
+    width: 100%;
+}
+
+.reg-page .grid-container>div {
+    width: 100%;
+}
+
+.reg-page__logo {
+    height: 100%;
+}
+
+.reg-page .auto-form input {
+    min-width: 200px;
+}
+
+.reg-page .error {
+    text-wrap: wrap;
+}
+
+@media (width < 750px) {
+    .reg-page__header {
+        height: 30px;
+        margin-bottom: 20px;
+    }
+}
