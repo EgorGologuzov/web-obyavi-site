@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate, useParams } from "react-router-dom";
 import Access from "./hoc/Access";
 import LayoutGuest from './pages/LayoutGuest';
 import LayoutCard from './pages/LayoutCard';
@@ -39,6 +39,11 @@ import SettingsPageClient from "./pages/client/SettingsPageClient";
 import ListOfDialogsClient from "./pages/client/ListOfDialogsClient";
 import RoleNavigator from "./hoc/RoleNavigator";
 
+function NavigateId({ to }) {
+  const { id } = useParams();
+  return <Navigate to={to.replace(":id", id)} replace />
+}
+
 function App() {
     return (
         <BrowserRouter>
@@ -48,19 +53,19 @@ function App() {
                 <Route path="/reg" element={<Navigate to="/web-obyavi-site/reg" />}/>
                 <Route path="/recovery" element={<Navigate to="/web-obyavi-site/recovery" />}/>
                 <Route path="/c/search" element={<Navigate to="/web-obyavi-site/c/search" />}/>
-                <Route path="/c/ad/:id" element={<Navigate to="/web-obyavi-site/c/ad/:id" />}/>
-                <Route path="/c/client/:id" element={<Navigate to="/web-obyavi-site/c/client/:id" />}/>
+                <Route path="/c/ad/:id" element={<NavigateId to="/web-obyavi-site/c/ad/:id" />}/>
+                <Route path="/c/client/:id" element={<NavigateId to="/web-obyavi-site/c/client/:id" />}/>
                 <Route path="/c/ad/new" element={<Navigate to="/web-obyavi-site/c/ad/new" />}/>
-                <Route path="/c/chat/:id" element={<Navigate to="/web-obyavi-site/c/chat/:id" />}/>
-                <Route path="/c/ad/:id/edit" element={<Navigate to="/web-obyavi-site/c/ad/:id/edit" />}/>
+                <Route path="/c/chat/:id" element={<NavigateId to="/web-obyavi-site/c/chat/:id" />}/>
+                <Route path="/c/ad/:id/edit" element={<NavigateId to="/web-obyavi-site/c/ad/:id/edit" />}/>
                 <Route path="/c/profile/edit" element={<Navigate to="/web-obyavi-site/c/profile/edit" />}/>
                 <Route path="/c/favorite" element={<Navigate to="/web-obyavi-site/c/favorite" />}/>
-                <Route path="/c/client/:id/ads" element={<Navigate to="/web-obyavi-site/c/client/:id/ads" />}/>
-                <Route path="/c/client/:id/reviews" element={<Navigate to="/web-obyavi-site/c/client/:id/reviews" />}/>
+                <Route path="/c/client/:id/ads" element={<NavigateId to="/web-obyavi-site/c/client/:id/ads" />}/>
+                <Route path="/c/client/:id/reviews" element={<NavigateId to="/web-obyavi-site/c/client/:id/reviews" />}/>
                 <Route path="/c/chats" element={<Navigate to="/web-obyavi-site/c/chats" />}/>
                 <Route path="/c/ads" element={<Navigate to="/web-obyavi-site/c/ads" />}/>
                 <Route path="/c/profile" element={<Navigate to="/web-obyavi-site/c/profile" />}/>
-                <Route path="/c/client/:id/reviews/new" element={<Navigate to="/web-obyavi-site/c/client/:id/reviews/new" />}/>
+                <Route path="/c/client/:id/reviews/new" element={<NavigateId to="/web-obyavi-site/c/client/:id/reviews/new" />}/>
                 <Route path="/c/settings" element={<Navigate to="/web-obyavi-site/c/settings" />}/>
                 <Route path="/c" element={<Navigate to="/web-obyavi-site/c" />}/>
 
